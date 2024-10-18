@@ -2,9 +2,16 @@ body{
     background-color: black;
     color: #fff;
 }
+
+h2{
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+}
+
 .section{
     padding: 1.5rem;
 }
+
 .Logo{
     height: 15rem;
     width: 15rem;
@@ -128,3 +135,94 @@ body{
   .card4:hover .gmail {
     fill: white;
   }
+
+  body {
+    background-color: black;
+    color: #fff;
+}
+
+.section {
+    padding: 1.5rem;
+}
+
+.Logo {
+    height: 15rem;
+    width: 15rem;
+}
+
+.up {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+.down {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+.card {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+}
+
+.card:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.instagram {
+    fill: #cc39a4;
+}
+
+.facebook {
+    fill: #03A9F4;
+}
+
+.whatsapp {
+    fill: #00ff00;
+}
+
+.gmail {
+    fill: #f14336;
+}
+
+/* Hover effects for each social media icon */
+.card1:hover {
+    background-color: #cc39a4;
+}
+
+.card1:hover .instagram {
+    fill: white;
+}
+
+.card2:hover {
+    background-color: #1877f2;
+}
+
+.card2:hover .facebook {
+    fill: white;
+}
+
+.card3:hover {
+    background-color: #00ff00;
+}
+
+.card3:hover .whatsapp {
+    fill: white;
+}
+
+.card4:hover {
+    background-color: #FF0004;
+}
+
+.card4:hover .gmail {
+    fill: white;
+}
